@@ -1,0 +1,19 @@
+/* Descendant and Child Combinators */
+
+/* this selects all the divs */
+div h1 {
+  color: red;
+}
+/* this is direct children of the div, thus changed blue */
+div > h1 {
+  color: blue;
+}
+/* descndant selector- all heading ones within th selector will be green */
+.header h1 {
+  color: green;
+}
+
+/* first header will be aqua */
+.header > h1 {
+  color: aqua;
+}
